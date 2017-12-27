@@ -6,7 +6,7 @@
         <style>
             @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
             body {
-                background: url('2.png') no-repeat;
+                background: url('3.png') no-repeat;
                 margin: 0 !important;
                 background-position: 50% 100%;
                 background-size: cover;
@@ -18,23 +18,42 @@
                 text-align: justify;
             }
             .content {
-                font-size: 20px;
+                font-size: 19px;
                 font-family: 'Press Start 2P', cursive;
-                line-height: 42px;
+                line-height: 32px;
                 text-shadow: 4px 4px 4px #aaa;
                 text-align: left;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
                 float: left;
-                margin-left: 35px;
+                margin-left: 20px;
             }
             .content-2 {
-                float: right !important;
-                text-align: right;
+                float: left !important;
+                text-align: left;
                 margin-right: 35px;
             }
             .word {
                 font-weight: 900;
                 color: red;
+            }
+            .vidos {
+                position: absolute;
+                bottom: 45px;
+                left: -webkit-calc(50% - 252px);
+            }
+            .sert {
+                float: right;
+                margin-right: 35px;
+                margin-top: 20px;
+                width: 400px;
+                -webkit-transition: all 1s ease;
+               -moz-transition: all 1s ease;
+                 -o-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+                    transition: all 1s ease;
+            }
+            .sert:hover {
+                -webkit-filter: opacity(55%);
             }
         </style>
     </head>
@@ -47,13 +66,17 @@
                 Чтоб <span class="word">поесть</span> не забывал,<br/>
                 Спину, ноги <span class="word">разминал</span>.<br/>
                 <br/>
-            </p>
-            <p class="content content-2">
                 Помнил, что кроме <span class="word">компа</span>,<br/>
                 Лес есть, речка и тропа,<br/>
                 Шашлычок, друзья, <span class="word">вино</span>,<br/>
                 Всё на радость нам дано!
             </p>
+            <iframe class="vidos" width="420" height="240"
+                src="https://www.youtube.com/embed/bxAU0v-KmNk?rel=0" allowfullscreen>
+            </iframe>
+            <a class="sert-href" href="http://massage.safari.ua/dnepr" target="_blank">
+                <img class="sert" src="1.jpg" />
+            </a>
         </div>
     </body>
 </html>
